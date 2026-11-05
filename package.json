@@ -1,0 +1,30 @@
+{
+  "name": "leanin-circle-recommendations",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Explainable Circle recommendations from the supplied synthetic community snapshot",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "seed": "tsx src/seed-cli.ts",
+    "build": "tsc",
+    "start": "node dist/src/server.js",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test test/*.test.ts",
+    "check": "npm run typecheck && npm test && npm run build",
+    "demo": "tsx src/demo.ts"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.0.0",
+    "@types/supertest": "^6.0.0",
+    "supertest": "^7.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
