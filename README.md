@@ -135,7 +135,7 @@ output/pdf/technical-design.pdf  One-page technical design
 AI_USAGE.md               AI assistance and review points
 ```
 
-For an interview-oriented explanation, request flow, and demonstration checklist, see [the walkthrough](docs/WALKTHROUGH.md). The [one-page technical design](output/pdf/technical-design.pdf) and [schema rationale](docs/SCHEMA.md) cover the submission's design deliverables.
+The [one-page technical design](output/pdf/technical-design.pdf) and [schema rationale](docs/SCHEMA.md) cover the submission's design deliverables.
 
 The API reads a validated SQLite snapshot into memory once. This avoids a database call per candidate and keeps ranking independently testable. SQLite demonstrates relational persistence and constraints without a separate service. Synchronous loading is confined to CLI/startup; request ranking scans 40 Circles and greedily selects at most 20.
 

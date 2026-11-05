@@ -6,7 +6,7 @@ I used OpenAI Codex as a development assistant for this take-home assignment. My
 
 - Set the direction for the submission and requested a step-by-step analysis of the assignment before implementation.
 - Asked for alternative recommendation methods and their tradeoffs before selecting the proposed transparent hybrid approach with TypeScript, Express, and SQLite.
-- Reviewed and verified all project documentation, including the setup instructions, technical design, schema rationale, walkthrough, and AI usage disclosure.
+- Reviewed and verified all project documentation, including the setup instructions, technical design, schema rationale, and AI usage disclosure.
 - Requested revisions to this disclosure so it clearly distinguishes my contributions from the work performed by Codex.
 - Retain responsibility for reviewing and approving the final submission.
 
@@ -14,7 +14,7 @@ I used OpenAI Codex as a development assistant for this take-home assignment. My
 
 - Inspected the assignment, supplied files, and dataset relationships; proposed implementation options and tradeoffs.
 - Implemented the API, database schema and importer, recommendation scoring, diversity rules, cold-start behavior, and explanation templates.
-- Wrote the automated tests, setup instructions, technical design, schema documentation, and walkthrough.
+- Wrote the automated tests, setup instructions, technical design, and schema documentation.
 - Ran local type checking, tests, builds, clean-install verification, and HTTP checks; configured and checked GitHub CI on Windows and Linux.
 - Created and published the GitHub repository under my direction.
 
